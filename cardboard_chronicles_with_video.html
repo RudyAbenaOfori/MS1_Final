@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/r_o_logo.svg" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Cardboard Chronicles</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins-Regular", sans-serif;
+        display: flex;
+        height: 100vh;
+      }
+      .sidebar {
+        width: 15%;
+        background-color: #050505;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+      }
+      .sidebar .menu-item {
+        margin: 40px 0;
+        text-align: center;
+      }
+      .sidebar .menu-item:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+      .main-content {
+        width: 65%;
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+      .main-content h1 {
+        /* margin: 20px; */
+        font-family: "Gotham-Black", sans-serif;
+        padding: 40px;
+      }
+      .video-player iframe {
+        width: 100%;
+        height: 500px;
+        border: none;
+        padding: 40px;
+        padding-top: 0px;
+      }
+      .description {
+        margin-top: 20px;
+        color: #555;
+        padding: 40px;
+        padding-top: 0px;
+      }
+      .right-panel {
+        width: 20%;
+        padding: 40px;
+        background-color: #eaeaea;
+      }
+      .right-panel h3 {
+        font-family: "Gotham-Black", sans-serif;
+        margin: 20px;
+      }
+      .tutorial-video {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+      }
+      .tutorial-video iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Profile</div>
+      <div class="menu-item">Videos</div>
+      <div class="menu-item">Help</div>
+      <div class="menu-item">Logout</div>
+    </div>
+    <div class="main-content">
+      <h1>Cardboard Chronicles</h1>
+      <div class="video-player">
+        <iframe src="https://www.youtube.com/embed/OlakLNwa7ng" allowfullscreen></iframe>
+      </div>
+      <div class="description">CC Cardboard Chair Tutorial<br />Tutorial on the assembly of the CC cardboard chair</div>
+    </div>
+    <div class="right-panel">
+      <h3>More Tutorial Videos</h3>
+      <div class="tutorial-video">
+        <iframe src="https://www.youtube.com/embed/OlakLNwa7ng" allowfullscreen></iframe>
+      </div>
+      <div class="tutorial-video">
+        <iframe src="https://www.youtube.com/embed/OlakLNwa7ng" allowfullscreen></iframe>
+      </div>
+      <div class="tutorial-video">
+        <iframe src="https://www.youtube.com/embed/OlakLNwa7ng" allowfullscreen></iframe>
+      </div>
+    </div>
+  </body>
+</html>
